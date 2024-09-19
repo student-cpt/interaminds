@@ -6,7 +6,7 @@ const PageNotImplemented = () => {
   return (
     <section className="page-404">
       <h1>Page not implemented</h1>
-      <p>Add your code / content here.</p>
+      <p>kaam karo bhai.</p>
     </section>
   );
 };

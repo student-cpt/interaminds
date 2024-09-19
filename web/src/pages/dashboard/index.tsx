@@ -3,7 +3,7 @@ import React from "react";
 const SamplePage = () => {
   return (
     <main>
-      <h1>Sample</h1>
+      <h1>Sandeep Sharma</h1>
     </main>
   );
 };
