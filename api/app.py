@@ -149,7 +149,7 @@ def login():
             token = jwt.encode({
                 'user_id': str(user['_id']),
                 'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=24)
-            }, app.config['muskaan$#@8787_cs22'], algorithm="HS256")
+            }, app.config['SECRET_KEY'], algorithm="HS256")
 
             return jsonify({"status": True, "cls": "success", "msg": "Login successful", "payload": token}), 200
         else:
