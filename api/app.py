@@ -90,10 +90,10 @@ bcrypt = Bcrypt(app)
 CORS(app)
 
 client = MongoClient('mongodb://localhost:27017')
-db = client['sandeep']
-users_collection = db['sharma']
+db = client['pandit']
+users_collection = db['sharmaa']
 
-app.config['SECRET_KEY'] = 'muskaan$#@8787_cs22'  # JWT secret key
+app.config['SECRET_KEY'] = 'muskaan$#@8787_cs22' 
 
 
 def is_valid_email(email):
