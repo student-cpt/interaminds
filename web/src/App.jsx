@@ -65,6 +65,10 @@ const App = () => {
           path: "*",
           element: <PageNotImplemented />,
         },
+        {
+          path: "sandeep",
+          element: <Pandit />,
+        },
       ],
     },
   ]);
