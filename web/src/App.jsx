@@ -65,10 +65,10 @@ const App = () => {
           path: "*",
           element: <PageNotImplemented />,
         },
-        {
-          path: "sandeep",
-          element: <Pandit />,
-        },
+        // {
+        //   path: "/sandeep",
+        //   element: <Pandit />,
+        // },
       ],
     },
   ]);
